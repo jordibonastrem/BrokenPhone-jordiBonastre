@@ -1,4 +1,8 @@
-const Key = ({ number, onActionClick }) => {
-  return <button onClick={onActionClick}>{number}</button>;
+const Key = ({ number, onActionClick, testId }) => {
+  return (
+    <button data-testid={testId} onClick={onActionClick}>
+      {number}
+    </button>
+  );
 };
 export default Key;
