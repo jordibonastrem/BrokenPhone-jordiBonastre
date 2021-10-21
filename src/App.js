@@ -23,18 +23,16 @@ function App() {
   ];
 
   return (
-    <PhoneContext.Provider>
-      <div className="container">
-        <Info text={"call"}></Info>
-        <main className="phone">
-          <div className="keyboard-container">
-            <KeyBoard keyGroup={testArray}></KeyBoard>
-          </div>
-          <Actions className={"actions"}></Actions>
-          <Display className={"number"}></Display>
-        </main>
-      </div>
-    </PhoneContext.Provider>
+    <div className="container">
+      <Info text={"call"}></Info>
+      <main className="phone">
+        <div className="keyboard-container">
+          <KeyBoard keyGroup={testArray}></KeyBoard>
+        </div>
+        <Actions className={"actions"}></Actions>
+        <Display className={"number"}></Display>
+      </main>
+    </div>
   );
 }
 
