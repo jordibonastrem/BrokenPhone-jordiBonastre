@@ -1,6 +1,6 @@
-const Key = ({ number, onActionClick, testId }) => {
+const Key = ({ number, actionOnClick, testId, className }) => {
   return (
-    <button data-testid={testId} onClick={onActionClick}>
+    <button className={className} data-testid={testId} onClick={actionOnClick}>
       {number}
     </button>
   );

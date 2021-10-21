@@ -1,5 +1,4 @@
 import Action from "../Action/Action";
-import "./App.css";
 const Actions = () => {
   return (
     <div className="actions">
