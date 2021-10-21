@@ -14,9 +14,9 @@ Solo se mostrara uno de los dos botones a la vez
 Su estado cambia en funcion del estado de display
 
 ###Action:
-Renderiza un boton
-Recibe por props el valor de la tecla
-Recibe un actionOnClick
+Renderiza texto recibido
+Recibe la classe (active)
+Recibe un actionOnClick 
 
 ###Keyboard:
 RECIBE un array de keys
