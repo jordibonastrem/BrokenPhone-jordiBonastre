@@ -1,9 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
-import PhoneContext from "./components/context/PhoneContext";
 import Info from "./components/Info/Info";
 import KeyBoard from "./components/KeyBoard/KeyBoard";
-import Action from "./components/Action/Action";
 import Actions from "./components/Actions/Actions";
 import Display from "./components/Display/Display";
 
