@@ -8,4 +8,4 @@ const Actions = () => {
   );
 };
 
-export default Action;
+export default Actions;
